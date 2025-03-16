@@ -47,7 +47,7 @@ public class ClientMainThread extends Thread {
 	}
 	
 	private void transmit(String message) {
-		try (pw) {
+		try {
 			pw.println(message);
 			pw.flush();
 		} catch (Exception e) {
