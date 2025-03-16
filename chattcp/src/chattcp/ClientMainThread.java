@@ -20,7 +20,7 @@ public class ClientMainThread extends Thread {
 	}
 	
 	public void init() {
-		try (brMain) {
+		try {
 			System.out.printf("아이디 입력: ");
 			String clientId = brMain.readLine();
 			
