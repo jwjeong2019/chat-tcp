@@ -1,4 +1,4 @@
-package chattcp;
+package com.chattcp.ex;
 
 import java.io.BufferedReader;
 import java.io.IOException;

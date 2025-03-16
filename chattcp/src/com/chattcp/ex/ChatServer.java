@@ -1,4 +1,4 @@
-package chattcp;
+package com.chattcp.ex;
 
 import java.io.IOException;
 import java.net.ServerSocket;
