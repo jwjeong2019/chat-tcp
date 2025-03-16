@@ -32,7 +32,7 @@ public class ClientMainThread extends Thread {
 	
 	public void run() {
 		String message = null;
-		try (socket; pw; brMain) {
+		try (brMain) {
 			while ((message = brMain.readLine()) != null) {
 				transmit(message);
 				
